@@ -1,7 +1,7 @@
 <div class="id-tatami-poussin col-md-12">
     <table class="table table-bordered table-hover text-light mt-4">
         <tr>
-            <td rowspan="2"  class="text-center"><h4 class="title mt-4">Poussins</h4></td>
+            <td rowspan="2"  class="text-center"><h4 class="title mt-4">Minim</h4></td>
             <td colspan="2" class="text-center"><b>Semi Contact</b></td>
             <td colspan="2" class="text-center"><b>Light Contact</b></td>
             <td colspan="2" class="text-center"><b>Kick Light</b></td>
@@ -50,8 +50,10 @@
                         break;
                 }
             @endphp
+
             @component('tatami.components.table-line', ['max' => $max, 'min' => $min, 'poussin' => $poussin])
             @endcomponent
+            
         @endfor
 
     </table>

@@ -12,10 +12,8 @@
         <input type="text" class="form-control" id="prenom" name="prenom" placeholder="Prenom">
     </div>
     {{-- M/F --}}
-    <div class="radio">
+    <div class="form-group radio">
         <label><input type="radio" name="sex" value="0" class="form-control" checked>Male</label>
-    </div>
-    <div class="radio">
         <label><input type="radio" name="sex" value="1" class="form-control">Femelle</label>
     </div>
     {{-- Date naissance --}}
@@ -49,11 +47,13 @@
         <label for="adress">Adresse</label>
         <input type="text" class="form-control" name="adress" id="adress" placeholder="Adresse">
     </div>
+
     {{-- Phone 1 --}}
     <div class="form-group">
         <label for="phone">Numéro</label>
         <input type="text" class="form-control" id="phone" name="phone" placeholder="Numéro">
     </div>
+    
     {{-- Parent Name --}}
     <div class="form-group">
         <label for="exampleInputEmail1">Nom Parent</label>
