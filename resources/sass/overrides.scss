@@ -1,0 +1,28 @@
+/** navbar **/
+.navbar-brand{
+    color: $main-green !important;
+}
+
+/** dataTable **/
+.dataTables_filter{
+    float: right !important;
+}
+// tr hover
+tr:hover{
+    color: #ffffff !important;
+    background-color: rgba(47, 255, 0, 0.14) !important;
+}
+// td hover
+td:hover{
+    color: #ffffff !important;
+    background-color: rgba(255, 0, 0, 0.14) !important;
+}
+// color border
+.table-bordered th, .table-bordered td{
+    border: 1px solid $main-green !important;
+}
+// multiple-select
+.ms-choice > span{
+    padding-top: 6px !important;
+    margin-left: 10px !important;
+}

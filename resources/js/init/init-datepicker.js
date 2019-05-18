@@ -1,0 +1,1 @@
+export const datepicker = document.getElementsByClassName('birth_date');

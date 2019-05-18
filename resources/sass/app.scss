@@ -1,0 +1,14 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+// Variables
+@import 'variables';
+// font-awesome
+@import "node_modules/font-awesome/scss/font-awesome.scss";
+// @import "node_modules/multiple-select/dist/multiple-select.css";
+// @import "/node_modules/bootstrap-datepicker/dist/css/bootstrap-datepicker.css";
+// custom css
+@import 'overrides';
+@import 'styles';
