@@ -23,7 +23,12 @@ class Boxer extends Model
     // return age of the user
     public function age()
     {
-        return $this->birth_date->age;
+        
+        // return $this
+        $year = $this->birth_date->format('Y');
+        $current_year = date('Y');
+        return $current_year - $year;
+        
     }
 
     public function gender($gender){

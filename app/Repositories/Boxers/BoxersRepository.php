@@ -48,7 +48,7 @@ class BoxersRepository extends BaseRepository {
     public function filterAges($boxers)
     {
         $poussin = $boxers->filter(function($val , $key){
-            return $val['birth_date']->age >= 8 && $val['birth_date']->age <= 9;
+            return $val['birth_date']->age >= 3 && $val['birth_date']->age <= 9;
         });
 
         $ecole = $boxers->filter(function($val , $key){

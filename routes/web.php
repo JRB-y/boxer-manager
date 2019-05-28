@@ -10,6 +10,10 @@
 | contains the "web" middleware group. Now create something great!
 |
 */
+// Route::get('/', function(){
+//     $user = App\Boxer::find(37);
+//     return $user->age();
+// });
 
 Route::get('/', 'Boxers\BoxersController@index');
 

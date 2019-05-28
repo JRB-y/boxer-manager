@@ -24,7 +24,7 @@
     {{-- Poids --}}
     <div class="form-group">
         <label for="exampleInputEmail1">Poids</label>
-        <input type="number" class="form-control" name="weight" id="weight" placeholder="Poids">
+        <input type="number" step="0.01" class="form-control" name="weight" id="weight" placeholder="Poids">
     </div>
 
     {{-- Type --}}
