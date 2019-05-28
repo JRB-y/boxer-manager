@@ -26,4 +26,8 @@ class Boxer extends Model
         return $this->birth_date->age;
     }
 
+    public function gender($gender){
+        return $boxers->where('sex', $gender);
+    }
+
 }

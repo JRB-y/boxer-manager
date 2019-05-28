@@ -18,8 +18,8 @@
             <td class="text-center">F</td>
         </tr>
         {{-- -23 KG --}}
-        @for ($i = 0; $i < 6; $i++)
-            @component('tatami.components.table-line', ['max' => $ages[$i]['max'], 'min' => $ages[$i]['min'], 'poussin' => $boxers])
+        @for ($i = 0; $i < $length; $i++)
+            @component('tatami.components.table-line', ['max' => $weights[$i]['max'], 'min' => $weights[$i]['min'], 'poussin' => $boxers])
             @endcomponent
         @endfor
 
